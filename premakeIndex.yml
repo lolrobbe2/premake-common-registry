@@ -9,3 +9,6 @@ libraries:
   nothings:
   - name: stb
     description: stb single-file public domain libraries for c/c++
+  khronosgroup:
+  - name: vulkan-headers
+    description: vulkan header files and api registry
