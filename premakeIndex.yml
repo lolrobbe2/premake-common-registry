@@ -6,3 +6,6 @@ libraries:
   cyan4973:
   - name: xxhash
     description: extremely fast non-cryptographic hash algorithm
+  nothings:
+  - name: stb
+    description: stb single-file public domain libraries for c/c++
