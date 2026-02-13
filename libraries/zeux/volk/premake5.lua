@@ -1,3 +1,4 @@
+require "vulkan-headers"
 project "volk"
 	language    "C"
     kind        "StaticLib"  
@@ -13,7 +14,9 @@ project "volk"
         "volk.c",
         "volk.h",
     }
-
+    links {
+        "Vulkan-Headers"
+    }
     filter "platforms:Windows"
         defines {
             "VK_USE_PLATFORM_WIN32_KHR",
