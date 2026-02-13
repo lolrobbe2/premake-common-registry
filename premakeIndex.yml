@@ -12,3 +12,6 @@ libraries:
   khronosgroup:
   - name: vulkan-headers
     description: vulkan header files and api registry
+  zeux:
+  - name: volk
+    description: meta loader for vulkan api
