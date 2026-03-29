@@ -6,6 +6,7 @@ project "utf8cpp"
     {
         "source"
     }
+    setincludedirs("utf8cpp","source")
     files 
     { 
         "source/**.h", 
