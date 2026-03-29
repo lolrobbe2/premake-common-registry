@@ -1,7 +1,8 @@
-project "Vulkan-Headers"
+project "vulkan-headers"
 	language    "C++"
     kind        "None"  
 	warnings    "Off"
+    setincludedirs("vulkan-headers","include")
     includedirs 
     {
         "include"
